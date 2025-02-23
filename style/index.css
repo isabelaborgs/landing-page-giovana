@@ -544,6 +544,7 @@ ul {
 .pergunta {
     display: flex;
     justify-content: space-between;
+    text-align: start;
     align-items: center;
     padding: 1rem 1.5rem;
     font-size: 1.1em;
