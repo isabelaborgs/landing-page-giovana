@@ -1,0 +1,551 @@
+@import url(geral.css);
+
+:root {
+    /*Cores da marca*/
+    --roxo-escuro: #3a1345;
+    --salmao: #ff8181;
+    --salmao-claro: hsl(0, 100%, 97%);
+    --lilas: #cb6ce6;
+
+    /*Sombras*/
+    --sombra-pequena: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    --sombra-media: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    --sombra-grande: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+/*Seção Início*/
+#secao-inicio {
+    flex-direction: row;
+    row-gap: 0;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--salmao);
+}
+
+@media screen and (min-width: 992px) {
+    #secao-inicio {
+        align-items: center;
+        height: 95vh;
+        margin-bottom: 5rem;
+        text-align: start;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #secao-inicio {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+#titulo-pagina {
+    font-size: 2.1em;
+    font-weight: 700;
+}
+
+#subtitulo-pagina {
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 450px) {
+    #titulo-pagina {
+        font-size: 2.6em;
+    }
+
+    #subtitulo-pagina {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #titulo-pagina {
+        font-size: 2.8em;
+    }
+
+    #subtitulo-pagina {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #titulo-pagina {
+        font-size: 3.3em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #titulo-pagina {
+        font-size: 3.7em;
+    }
+
+    #subtitulo-pagina {
+        font-size: 1.8em;
+    }
+}
+
+.bloco-txt {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.gp-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+    .gp-botoes {
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .gp-botoes {
+        font-size: 1.1em;
+    }
+}
+
+.gp-botoes a {
+    min-width: max-content;
+}
+
+#img-inicio {
+    width: 100%;
+}
+
+/*Seção Demandas*/
+@media screen and (min-width: 992px) {
+    #secao-demandas {
+        padding: 4rem 2rem;
+    }
+}
+
+#lista-demandas {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    align-items: center;
+}
+
+.item-demanda {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-align: start;
+    line-height: 1.1;
+    height: 75px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--sombra-pequena);
+    background-color: white;
+}
+
+.item-demanda:hover {
+    box-shadow: var(--sombra-media);
+}
+
+.item-demanda .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    flex-shrink: 0;
+    background-color: var(--salmao);
+    color: var(--roxo-escuro);
+}
+
+.item-demanda:hover .icon {
+    background-color: var(--roxo-escuro);
+    color: var(--salmao);
+}
+
+/*Cards*/
+.gp-cards {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+.icon-card, .icon-info, .num-card, .titulo-card, .titulo-info {
+    color: var(--roxo-escuro);
+}
+
+.titulo-info, .titulo-card {
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.card-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 1.8rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: var(--sombra-pequena);
+    transition: ease-in-out 0.5s;
+}
+
+.card-info:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: var(--sombra-media);
+}
+
+.icon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 3em;
+    background-color: var(--salmao);
+    transition: ease-in-out 0.5s;
+}
+
+.icon-card .material-symbols-rounded {
+    font-variation-settings: 'FILL' 1;
+    font-size: 1.2em;
+}
+
+.card-info:hover .icon-card {
+    background-color: var(--roxo-escuro);
+    color:var(--salmao);
+}
+
+.corpo-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+}
+
+/*Seção Serviços*/
+#cards-servicos .titulo-card {
+    font-size: 1.5em;
+}
+
+#cards-servicos .descricao-card {
+    font-size: 1.2em;
+}
+
+/*Seção Psicoterapia*/
+#cards-tratamentos .card-tratamento, #cards-tratamentos .corpo-card {
+    align-items: start;
+    text-align: start;
+}
+
+.num-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--salmao);
+    font-size: 2.2em;
+    font-weight: 500;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    } 
+
+.card-tratamento:hover .num-card {
+    background-color: var(--roxo-escuro);
+    color: var(--salmao);
+} 
+
+.bt-ler-mais {
+    text-align: start;
+    color: var(--salmao);
+}
+
+.bt-ler-mais i {
+    vertical-align: middle;
+    transition: ease-in-out 0.5s;
+}
+
+.bt-ler-mais:hover i {
+    margin-left: 0.3rem;  
+}
+
+/*Modais de tratamentos*/
+.modal-content {
+    row-gap: 1rem;
+}
+
+.modal-body .row {
+    align-items: center;
+    row-gap: 2rem;
+}
+
+#secao-psicoterapia .modal-footer {
+    justify-content: center;
+}
+
+.txt-modal {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+    #secao-psicoterapia .modal-footer {
+        justify-content: end;
+    }
+
+    .txt-modal {
+        text-align: start;
+        vertical-align: middle;
+    }
+}
+
+.img-modal {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+@media screen and (min-width: 992px) {
+    .img-modal {
+        max-height: 350px;
+    }
+}
+
+/*Características da psicoterapia*/
+#lista-info {
+    display: flex;
+    row-gap: 1rem;
+}
+
+.item-info {
+    display: flex;
+    padding: 1.5rem;
+    column-gap: 1.3rem;
+    text-align: start;
+    height: 100%;
+}
+
+.icon-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-color: var(--salmao);
+    box-shadow: var(--sombra-pequena);
+    transition: ease-in-out 0.7s;
+}
+
+.icon-info span {
+    font-variation-settings: 'FILL' 1;
+    font-size: 1.1em;
+}
+
+.item-info:hover .icon-info {
+    background-color: var(--roxo-escuro);
+    color: var(--salmao);
+    box-shadow: var(--sombra-media);
+    transition: ease-in-out 0.7s;
+}
+
+/*Seção treinamento*/
+#secao-treinamento .conteudo-secao {
+    text-align: start;
+    margin-bottom: 4rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#txt-th {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;    
+}
+
+#descricao-th {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+    #descricao-th {
+        text-align: start;
+    }
+}
+
+#descricao-th  .marcador{
+    background-color: var(--salmao);
+    padding: 0 8px;
+}
+
+#conceito-desregulacao {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    background-color: white;
+    box-shadow: var(--sombra-pequena);
+    border-radius: 20px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
+}
+
+#conceito-desregulacao .icon {
+    background-color: var(--salmao);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#conceito-desregulacao .marcador {
+    color: var(--salmao);
+}
+
+#bt-conhecer-th {
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+    transition: ease-in-out 0.5s;
+}
+
+@media screen and (min-width: 1400px) {
+    #bt-conhecer-th {
+        text-align: start;
+    }
+}
+
+#bt-conhecer-th a {
+    display: inline-block;
+}
+
+#img-treinamento {
+    width: 90%;
+    max-height: 500px;
+}
+
+/*Seção sobre mim*/
+#foto-profissional {
+    max-height: 480px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:992px) {
+    #secao-sobre-mim .conteudo-secao {
+        flex-wrap: nowrap;
+        column-gap: 2.5rem;
+        justify-content: start;
+    }
+
+    #lista-sobre-mim {
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #lista-sobre-mim {
+        font-size: 1.1em;
+    }
+}
+
+#lista-sobre-mim .list-group-item {
+    color: var(--roxo-escuro);
+}
+
+#cabecalho-sobre-mim {
+    padding-bottom: 1.5rem;
+}
+
+#cabecalho-sobre-mim .nome {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+/*Seção FAQ*/
+#secao-faq {
+    margin-bottom: 5rem;
+}
+
+#lista-faq {
+    display: flex;
+    width: 100%;
+    row-gap: 1.5rem;
+}
+
+.coluna-faq {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.item-faq {
+    border-radius: 7px;
+    box-shadow: var(--sombra-pequena);
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+}
+
+.item-faq:hover {
+    box-shadow: var(--sombra-media);
+    transform: scale(1.01, 1.01);
+    transition: ease-in-out 0.5s;
+}
+
+.bt-expandir {
+    width: 100%;
+}
+
+.bt-expandir:hover {
+    background-color: var(--salmao-claro);
+}
+
+.bt-expandir:not(.collapsed) {
+    background-color: var(--salmao-claro);
+}
+
+.bt-expandir:not(.collapsed) i {
+    transform: rotate(180deg);
+    transition: ease-in-out 0.5s;
+}
+
+.bt-expandir i {
+    color: var(--salmao);
+    padding: 0.2rem 0.3rem;
+    border-radius: 3px;
+    transition: ease-in-out 0.5s;
+}
+
+.pergunta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--roxo-escuro);
+}
+
+.txt-resposta {
+    text-align: start;
+    padding: 0.75rem 1.5rem 1.5rem;
+}

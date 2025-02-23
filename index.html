@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovana Mondek | Psicoterapia Comportamental e Cognitivo-Comportamental</title>
+
+    <link rel="shortcut icon" href="img/logotipo/icon-salmao.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://kit.fontawesome.com/8cb24f1eb7.js"></script>
+</head>
+<body>
+    <!--Barra de navegação-->
+    <nav class="navbar navbar-expand-lg" id="barra-nav" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html#">
+                <img src="img/logotipo/logo-salmao.svg" alt="Logotipo" id="logo-nav"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-nav" aria-controls="menu-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#secao-inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#secao-demandas">Demandas atendidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#secao-servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Psicoterapia
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html#secao-psicoterapia">Tratamentos oferecidos</a></li>
+                            <li><a class="dropdown-item" href="index.html#secao-caracteristicas">Características da psicoterapia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="treinamento.html#secao-inicio-th" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Treinamento DBT
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="treinamento.html#secao-inicio-th">Sobre o treino</a></li>
+                            <li><a class="dropdown-item" href="treinamento.html#secao-como-funciona">Como funciona</a></li>
+                            <li><a class="dropdown-item" href="treinamento.html#secao-como-participar">Como participar</a></li>
+                            <li><a class="dropdown-item" href="treinamento.html#secao-habilidades">Habilidades ensinadas</a></li>
+                            <li><a class="dropdown-item" href="treinamento.html#secao-treinadoras">Treinadoras</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#secao-sobre-mim">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#secao-pbe">Método de trabalho</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://wa.me/5543996794152" target="_blank">
+                            <span class="bt-contato">
+                                <i class="fa-brands fa-whatsapp bt-icon"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!--Seção início-->
+        <section class="secao row g-0" id="secao-inicio">
+                    <div class="col-lg-6 bloco-txt">
+                        <div class="headline">
+                            <h1 id="titulo-pagina">Giovana Mondek</h1>
+                            <p id="subtitulo-pagina">Psicoterapia Comportamental e Cognitivo-Comportamental</p>
+                        </div>
+                        <div class="gp-botoes">
+                            <a href="https://wa.me/5543996794152" target="_blank" class="bt-primario">Entre em contato</a>
+                            <a href="#secao-demandas" class="bt-secundario">Mais informações</a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-lg-6 bloco-img">
+                        <div class="container-img">
+                            <img src="img/ilustracoes/secao-inicio.svg" alt="Ilustração de uma mulher com flores" id="img-inicio">
+                        </div>
+                    </div>
+        </section>
+        <!--Seção demandas-->
+        <section class="secao" id="secao-demandas">
+                        <div class="titulo-secao">Demandas atendidas</div>
+                        <div class="conteudo-secao">
+                            <ul class="row" id="lista-demandas">
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Depressão</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Ansiedade</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Fobia Social</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Fobia Específica</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Pânico</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">TDAH</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Bipolaridade</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">TOC</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">TEPT</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Luto</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Insônia</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Borderline</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Transtorno de Ansiedade de Doença</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Transtorno Explosivo Intermitente</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Organização e manejo de tempo</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Ciúme excessivo</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Problemas em relacionamentos</span>
+                                    </div>
+                                </li>
+                                <li class="col-6 col-md-4 col-xl-2">
+                                    <div class="item-demanda">
+                                        <span class="icon"><i class="fa-solid fa-check"></i></span>
+                                        <span class="txt">Outras demandas gerais</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+        </section>
+        <!--Seção serviços-->
+        <section class="secao" id="secao-servicos">
+                <div class="titulo-secao">Serviços oferecidos</div>
+                <div class="conteudo-secao">
+                    <div class="row gp-cards" id="cards-servicos">
+                        <div class="col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                            <div class="card-info card-servico">
+                                <div class="corpo-card">
+                                    <div class="icon-card">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                    <div class="txt-card">
+                                        <div class="titulo-card">Psicoterapia</div>
+                                        <div class="descricao-card">Psicoterapia individual online para adultos</div>
+                                    </div>
+                                </div>
+                                <a href="#secao-psicoterapia" class="bt-primario">Saiba mais</a>
+                            </div>
+                        </div>
+                        <div class="col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                            <div class="card-info card-servico">
+                                <div class="corpo-card">
+                                    <div class="icon-card">
+                                        <i class="fa-solid fa-users"></i>
+                                    </div>
+                                    <div class="txt-card">
+                                        <div class="titulo-card">Treinamento</div>
+                                        <div class="descricao-card">Treinamento de habilidades DBT para Borderline e desregulação emocional</div>
+                                    </div>
+                                </div>
+                                <a href="#secao-treinamento" class="bt-primario">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!--Seção psicoterapia-->
+        <section class="secao" id="secao-psicoterapia">
+                <!--Abordagens na psicoterapia-->
+                <div class="titulo-secao">Tratamentos oferecidos na psicoterapia</div>
+                <div class="conteudo-secao">
+                    <div class="row gp-cards" id="cards-tratamentos">
+                            <!--TCC-->
+                            <div class="col-sm-10 col-md-6 col-xl-3">
+                                <!--Card TCC-->
+                                <div class="card-info card-tratamento">
+                                    <div class="corpo-card">
+                                        <div class="num-card">
+                                            01.
+                                        </div>
+                                        <div class="txt-card">
+                                            <div class="titulo-card">Terapia Cognitivo-Comportamental</div>
+                                            <div class="descricao-card">A Terapia Cognitivo-Comportamental (TCC) possui fortes evidências de eficácia para diversas demandas</div>
+                                        </div>
+                                    </div>
+                                    <button class="bt-ler-mais" data-bs-toggle="modal" data-bs-target="#modal-tcc">
+                                        Saiba mais <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <!--Modal TCC-->
+                                <div class="modal fade" id="modal-tcc" tabindex="-1" aria-labelledby="modal-label-tcc" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="modal-label-tcc">Terapia Cognitivo-Comportamental (TCC)</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="col-lg-6">
+                                                        <img src="img/ilustracoes/modal-tcc.svg" alt="Ilustração sobre psicoterapia" class="img-modal">
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="txt-modal">
+                                                            A terapia cognitivo-comportamental (TCC) é uma abordagem terapêutica que busca identificar e modificar padrões de pensamento e comportamento disfuncionais. Ela envolve dois componentes principais: o cognitivo e o comportamental. No componente cognitivo, trabalha-se para identificar e desafiar pensamentos negativos e distorcidos, substituindo-os por pensamentos mais realistas. No componente comportamental, enfoca-se na modificação de comportamentos desadaptativos, utilizando estratégias e técnicas específicas. A TCC é indicada para uma gama muito grande de demandas.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="https://wa.me/5543996794152" target="_blank" class="bt-primario">Entre em contato</a>
+                                                <a href="#" class="bt-secundario" data-bs-dismiss="modal">Ver mais opções</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--DBT-->
+                            <div class="col-sm-10 col-md-6 col-xl-3">
+                                <!--Card DBT-->
+                                <div class="card-info card-tratamento">
+                                    <div class="corpo-card">
+                                        <div class="num-card">
+                                            02.
+                                        </div>
+                                        <div class="txt-card">
+                                            <div class="titulo-card">Terapia Comportamental Dialética</div>
+                                            <div class="descricao-card">A Terapia Comportamental Dialética (DBT) é recomendada para Borderline e desregulação emocional</div>
+                                        </div>
+                                    </div>
+                                    <button class="bt-ler-mais" data-bs-toggle="modal" data-bs-target="#modal-dbt">
+                                        Saiba mais <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <!--Modal DBT-->
+                                <div class="modal fade" id="modal-dbt" tabindex="-1" aria-labelledby="modal-label-dbt" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="modal-label-dbt">Terapia Comportamental Dialética(DBT)</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="col-xl-6">
+                                                        <img src="img/ilustracoes/modal-dbt.svg" alt="Ilustração sobre psicoterapia" class="img-modal">
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="txt-modal">
+                                                            A terapia comportamental dialética (DBT, na sigla em inglês) é uma abordagem terapêutica desenvolvida especialmente para o tratamento de transtorno de personalidade borderline e para outros quadros de desregulação emocional pervasiva. Ela combina elementos da terapia comportamental, cognitiva e mindfulness. A DBT busca ajudar os pacientes a desenvolver habilidades de regulação emocional, lidar com situações de crise e melhorar os padrões de relacionamento interpessoal. A terapia envolve a prática de mindfulness, a aprendizagem de estratégias de tolerância ao desconforto emocional e o desenvolvimento de habilidades de comunicação eficazes. Além disso, a DBT valoriza a relação terapêutica como um elemento central para a mudança. A dupla terapêutica trabalha para ajudar cada paciente a alcançar uma vida que valha à pena ser vivida, a partir de valores, metas e alvos estabelecidos no começo do tratamento.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="https://wa.me/5543996794152" target="_blank" class="bt-primario">Entre em contato</a>
+                                                <a href="#" class="bt-secundario" data-bs-dismiss="modal">Ver mais opções</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--BA-->
+                            <div class="col-sm-10 col-md-6 col-xl-3">
+                                <!--Card BA-->
+                                <div class="card-info card-tratamento">
+                                    <div class="corpo-card">
+                                        <div class="num-card">
+                                            03.
+                                        </div>
+                                        <div class="txt-card">
+                                            <div class="titulo-card">Ativação Comportamental</div>
+                                            <div class="descricao-card">A Ativação Comportamental (BA) é utilizada para tratar a Depressão</div>
+                                        </div>
+                                    </div>
+                                    <button class="bt-ler-mais" data-bs-toggle="modal" data-bs-target="#modal-ba">
+                                        Saiba mais <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <!--Modal BA-->
+                                <div class="modal fade" id="modal-ba" tabindex="-1" aria-labelledby="modal-label-ba" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="modal-label-ba">Ativação Comportamental (BA)</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="col-xl-6">
+                                                        <img src="img/ilustracoes/modal-ba.svg" alt="Ilustração sobre psicoterapia" class="img-modal">
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="txt-modal">
+                                                            A terapia de ativação comportamental é uma abordagem terapêutica focada em ajudar as pessoas a superar a depressão, aumentando suas atividades e envolvimento com experiências positivas. Ela se baseia na ideia de que a inatividade e a falta de engajamento em atividades prazerosas contribuem para a manutenção da depressão. O terapeuta trabalha com o paciente para identificar atividades significativas e estabelecer metas realistas, incentivando a participação ativa nessas atividades. A terapia de ativação comportamental também se concentra na identificação de padrões negativos de pensamento e comportamento que interferem no engajamento em atividades gratificantes. Ao aumentar a exposição a experiências positivas, a terapia de ativação comportamental visa melhorar o humor e a qualidade de vida do indivíduo.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="https://wa.me/5543996794152" target="_blank" class="bt-primario">Entre em contato</a>
+                                                <a href="#" class="bt-secundario" data-bs-dismiss="modal">Ver mais opções</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Exposição-->
+                            <div class="col-sm-10 col-md-6 col-xl-3">
+                                <!--Card exposição-->
+                                <div class="card-info card-tratamento">
+                                    <div class="corpo-card">
+                                        <div class="num-card">
+                                            04.
+                                        </div>
+                                        <div class="txt-card">
+                                            <div class="titulo-card">Terapias de exposição</div>
+                                            <div class="descricao-card">As Terapias de Exposição são indicadas para tratar transtornos de ansiedade, TOC e TEPT</div>
+                                        </div>
+                                    </div>
+                                    <button class="bt-ler-mais" data-bs-toggle="modal" data-bs-target="#modal-exposicao">
+                                        Saiba mais <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <!--Modal exposição-->
+                                <div class="modal fade" id="modal-exposicao" tabindex="-1" aria-labelledby="modal-label-exposicao" aria-hidden="true">
+                                    <div class="modal-dialog modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="modal-label-exposicao">Ativação Comportamental (BA)</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="col-xl-6">
+                                                        <img src="img/ilustracoes/modal-exposicao.svg" alt="Ilustração sobre psicoterapia" class="img-modal">
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="txt-modal">
+                                                            As terapias de exposição são abordagens terapêuticas que visam tratar transtornos relacionados à ansiedade, como transtorno de estresse pós-traumático, fobias e transtorno de ansiedade generalizada. Essas terapias envolvem a exposição controlada e gradual a situações, pensamentos ou memórias temidas, com o objetivo de reduzir a resposta de ansiedade associada a elas. Durante as sessões, o terapeuta auxilia o paciente a enfrentar gradualmente as situações temidas, promovendo a habituação e a desativação da resposta de medo. Essas terapias são baseadas na ideia de que a exposição controlada e repetida aos estímulos temidos pode levar a uma redução significativa da ansiedade e a uma adaptação saudável a essas situações.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="https://wa.me/5543996794152" target="_blank" class="bt-primario">Entre em contato</a>
+                                                <a href="#" class="bt-secundario" data-bs-dismiss="modal">Ver mais opções</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        </section>
+        <!--Características da psicoterapia-->
+        <section class="secao" id="secao-caracteristicas">
+                <div class="titulo-secao">Características da psicoterapia</div>
+                <div class="conteudo-secao">
+                    <div class="row" id="lista-info">
+                            <div class="col-md-6 col-xl-4">
+                                <div class="item-info">
+                                    <div class="icon-info">
+                                        <i class="fa-solid fa-user-group"></i>
+                                    </div>
+                                    <div class="conteudo-info">
+                                        <div class="titulo-info">Estruturada, ativa e colaborativa</div>
+                                        <div class="txt-info">Sessões estruturadas, terapeuta e paciente falam proporcionalmente e decisões clínicas são tomadas em conjunto</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="item-info">
+                                    <div class="icon-info">
+                                        <i class="fa-solid fa-scale-balanced"></i>
+                                    </div>
+                                    <div class="conteudo-info">
+                                        <div class="titulo-info">Relação de igual para igual e transparente</div>
+                                        <div class="txt-info">Todos os aspectos relevantes são abertamente discutidos e a dupla terapêutica se trata como iguais</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="item-info">
+                                    <div class="icon-info">
+                                        <i class="fa-solid fa-brain"></i>
+                                    </div>
+                                    <div class="conteudo-info">
+                                        <div class="titulo-info">Psicoeducativa e focada no aprendizado de repertório</div>
+                                        <div class="txt-info">Terapeuta ensina conceitos e técnicas, sem mistério</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="item-info">
+                                    <div class="icon-info">
+                                        <i class="fa-solid fa-bullseye"></i>
+                                    </div>
+                                    <div class="conteudo-info">
+                                        <div class="titulo-info">Orientada por objetivos e focada em problemas</div>
+                                        <div class="txt-info">Metas são estabelecidas para o tratamento e a dupla terapêutica trabalha para alcançá-las</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="item-info">
+                                    <div class="icon-info">
+                                        <span class="material-symbols-rounded">
+                                            diversity_1
+                                        </span>
+                                    </div>
+                                    <div class="conteudo-info">
+                                        <div class="titulo-info">Culturalmente responsiva</div>
+                                        <div class="txt-info">Aspectos sociais como raça, classe, orientação sexual e identidade de gênero são levados em consideração</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <div class="item-info">
+                                    <div class="icon-info">
+                                        <span class="material-symbols-rounded">
+                                            psychology
+                                        </span>
+                                    </div>
+                                    <div class="conteudo-info">
+                                        <div class="titulo-info">Comportamental e cognitiva, focada na mudança</div>
+                                        <div class="txt-info">Diversas ferramentas para mudança de comportamento, pensamentos e regulação emocional são usadas</div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        </section>
+        <!--Seção treinamento de habilidades-->
+        <section class="secao" id="secao-treinamento">
+                <div class="titulo-secao">Treinamento de habilidades em DBT</div>
+                <div class="conteudo-secao row g-0">
+                    <div class="col-xxl-7 order-1" id="txt-th">
+                        <div id="descricao-th">
+                            O <b style="color: #3a1345;">Treinamento de Habilidades em Terapia Comportamental Dialética (DBT)</b> é destinado para pessoas com diagnóstico de Transtorno da Personalidade Borderline ou outras demandas que envolvem <b class="marcador">desregulação emocional</b>.
+                        </div>
+                        <div id="conceito-desregulacao">
+                            <div class="icon">
+                                <i class="fa-solid fa-info"></i>
+                            </div>
+                            <div class="txt">A <b class="marcador">desregulação emocional</b> refere-se a dificuldades na regulação e manejo das emoções. Pessoas com desregulação emocional podem experimentar emoções intensas e de longa duração, dificuldade em se acalmar depois de uma emoção intensa e mudanças de humor rápidas e imprevisíveis. Essas dificuldades podem causar problemas nas relações interpessoais, no funcionamento diário e na qualidade de vida.</div>
+                        </div>
+                        
+                        <div id="bt-conhecer-th">
+                            <a class="bt-primario" href="treinamento.html">
+                                Conheça o treinamento <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xxl-block col-xxl-5">
+                        <img src="img/ilustracoes/secao-treinamento.svg" alt="Ilustração de treinamento em grupo" id="img-treinamento">
+                    </div>
+                </div>
+        </section>
+        <!--Seção sobre mim-->
+        <section class="secao" id="secao-sobre-mim">
+                <div class="titulo-secao">Sobre mim</div>
+                <div class="conteudo-secao">
+                            <div class="container-img">
+                                <img src="img/fotos/foto-giovana.jpg" alt="Foto de Giovana" id="foto-profissional">
+                            </div>
+                            <ul class="list-group list-group-flush" id="lista-sobre-mim">
+                                    <li class="list-group-item" id="cabecalho-sobre-mim">
+                                        <div class="nome">Giovana Moreira Mondek</div>
+                                        <div class="crp">CRP-08/30153</div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        Psicóloga formada desde 2020 (Unifil)
+                                    </li>
+                                    <li class="list-group-item">
+                                        Ativadora Comportamental desde 2019 (IACC – Instituto de Análise do Comportamento de Curitiba)
+                                    </li>
+                                    <li class="list-group-item">
+                                        Especialista em Terapia Cognitivo-Comportamental desde 2022 (IMCP – Instituto Multiprofissional em Clínica e Pós-graduação)
+                                    </li>
+                                    <li class="list-group-item">
+                                        Formada  em  Terapia  Comportamental  Dialética  desde 2023 (Sínteses Psicologia)
+                                    </li>
+                                    <li class="list-group-item">
+                                        <span>Formada  em  Psicopatologia  e  <a href="#secaoPBE">Prática  Baseada  em Evidências</a> desde 2023 (Ello Psicologia)</span>
+                                    </li>
+                                    <li class="list-group-item">
+                                        Certificação do curso “Prática Baseada em Evidências” do Leonardo Costa
+                                    </li>
+                                    <li class="list-group-item">
+                                        Certificação do curso “Bastidores do Treino de Habilidades DBT” da DBT Amazônia
+                                    </li>
+                            </ul>
+                </div>
+        </section>
+        <!--Seção PBE-->
+        <section class="secao" id="secao-pbe">
+                <div class="cabecalho-secao">
+                    <div class="titulo-secao">Prática baseada em evidências</div>
+                    <div class="subtitulo-secao">Meu método de trabalho técnico é a Psicoterapia Baseada em Evidências. Isso significa que:</div>
+                </div>
+                <div class="conteudo-secao">
+                    <div class="row gp-cards" id="cards-pbe">
+                            <div class="col-10 col-sm-8 col-md-7 col-lg-4 col-xxl-3">
+                                <div class="card-info card-pbe">
+                                    <div class="corpo-card">
+                                        <div class="icon-card">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+                                        <div class="txt-card">  
+                                            <div class="titulo-card">Evidências atualizadas</div>
+                                            <div class="descricao-card">Consulto com recorrência os dados e pesquisas científicas mais recentes sobre sua necessidade clínica</div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-8 col-md-7 col-lg-4 col-xxl-3">
+                                <div class="card-info card-pbe">
+                                    <div class="corpo-card">
+                                        <div class="icon-card">
+                                            <i class="fa-solid fa-book-open-reader"></i>
+                                        </div>
+                                        <div class="txt-card">
+                                            <div class="titulo-card">Expertise clínica</div>
+                                            <div class="descricao-card">Mantenho um processo constante de atualização, capacitação técnica e supervisão clínica dos atendimentos prestado</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-10 col-sm-8 col-md-7 col-lg-4 col-xxl-3">
+                                <div class="card-info card-pbe">
+                                    <div class="corpo-card">
+                                        <div class="icon-card">
+                                            <span class="material-symbols-rounded">
+                                                diversity_4
+                                            </span>
+                                        </div>
+                                        <div class="txt-card">
+                                            <div class="titulo-card">Culturalmente responsiva</div>
+                                            <div class="descricao-card">Individualizo o tratamento conforme suas características, seu contexto, cultura, necessidades, experiências e preferências, aliando evidência científica atualizada e treinamento clínico recorrente</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        </section>
+        <!--Seção FAQ-->
+        <section class="secao" id="secao-faq">
+                <div class="titulo-secao">Perguntas frequentes</div>
+                <div class="conteudo-secao">
+                    <div class="row" id="lista-faq">
+                            <div class="col-xxl-6 coluna-faq">
+                                <div class="item-faq">
+                                    <button class="bt-expandir collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta1" aria-expanded="false" aria-controls="resposta1">
+                                        <div class="pergunta" id="pergunta1">
+                                            <div class="txt-pergunta">
+                                                Qual o preço da consulta?
+                                            </div>
+                                            <i class="fa-solid fa-chevron-down bt-icon"></i>
+                                        </div>
+                                    </button>
+                                    <div class="collapse resposta" id="resposta1">
+                                        <div class="txt-resposta">
+                                            Para saber o preço da consulta, você pode entrar em contato comigo por <a href="https://wa.me/5543996794152" target="_blank">aqui</a>. 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-faq">
+                                    <button class="bt-expandir collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta2" aria-expanded="false" aria-controls="resposta2">
+                                        <div class="pergunta" id="pergunta2">
+                                            <div class="txt-pergunta">
+                                                Como eu agendo uma sessão?
+                                            </div>
+                                            <i class="fa-solid fa-chevron-down bt-icon"></i>
+                                        </div>
+                                    </button>                               
+                                    <div class="collapse resposta" id="resposta2">
+                                        <div class="txt-resposta">
+                                            Para agendar uma sessão, é só clicar <a href="https://wa.me/5543996794152" target="_blank">aqui</a> e você será direcionada(o) para uma conversa no WhatsApp comigo.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-faq">
+                                    <button class="bt-expandir collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta3" aria-expanded="false" aria-controls="resposta3">
+                                        <div class="pergunta" id="pergunta3">
+                                            <div class="txt-pergunta">
+                                                Quais os horários disponíveis?
+                                            </div>
+                                            <i class="fa-solid fa-chevron-down bt-icon"></i>
+                                        </div>
+                                    </button>
+                                    <div class="collapse resposta" id="resposta3">
+                                        <div class="txt-resposta">
+                                            Eu atendo de segunda e sexta nos três períodos (manhã, tarde e noite). Para saber quais os horários disponíveis atualmente, é necessário <a href="https://wa.me/5543996794152" target="_blank">entrar em contato</a> comigo, já que a minha disponibilidade de horários tende a variar de tempos em tempos.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 coluna-faq">
+                                <div class="item-faq">
+                                    <button class="bt-expandir collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta4" aria-expanded="false" aria-controls="resposta4">
+                                        <div class="pergunta" id="pergunta4">
+                                            <div class="txt-pergunta">
+                                                Como funcionam a frequência e o tempo das sessões?
+                                            </div>
+                                            <i class="fa-solid fa-chevron-down bt-icon"></i>
+                                        </div>
+                                    </button>
+                                    <div class="collapse resposta" id="resposta4">
+                                        <div class="txt-resposta">
+                                            Na maioria dos casos, as sessões começam semanais e, ao final do tratamento, são espaçadas conforme combinado entre a dupla terapêutica. No entanto, casos mais graves e complexos podem requerer duas sessões semanais. De qualquer forma, isso será combinado entre terapeuta e paciente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-faq">
+                                    <button class="bt-expandir collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta5" aria-expanded="false" aria-controls="resposta5">
+                                        <div class="pergunta" id="pergunta5">
+                                            <div class="txt-pergunta">
+                                                Qual público você atende?
+                                            </div>
+                                            <i class="fa-solid fa-chevron-down bt-icon"></i>
+                                        </div>
+                                    </button>
+                                    <div class="collapse resposta" id="resposta5">
+                                        <div class="txt-resposta">
+                                            A terapia individual é destinada para pessoas a partir de 16 anos e o treinamento de habilidades para pessoas a partir de 18 anos de idade.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-faq">
+                                    <button class="bt-expandir collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#resposta6" aria-expanded="false" aria-controls="resposta6">
+                                        <div class="pergunta" id="pergunta6">
+                                            <div class="txt-pergunta">
+                                                Quanto tempo dura o tratamento?
+                                            </div>
+                                            <i class="fa-solid fa-chevron-down bt-icon"></i>
+                                        </div>
+                                    </button>
+                                    <div class="collapse resposta" id="resposta6">
+                                        <div class="txt-resposta">
+                                            Embora o tratamento tenha começo, meio e fim, não é possível saber de antemão quanto tempo o tratamento irá durar. Isso porque pessoas diferentes respondem ao tratamento de formas e tempos diferentes, além de outros fatores que podem influenciar no processo terapêutico, impossibilitando a previsão de seu término.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        </section>
+        <!--Seção Call-to-action-->
+        <section id="secao-cta">
+            <div class="call-to-action col-10">
+                    <div class="txt-call">
+                        Entre em contato comigo
+                    </div>
+                    <a href="#" class="bt-primario bt-call">
+                        <i class="fa-brands fa-whatsapp"></i>Enviar mensagem
+                    </a>
+                </div>
+        </section>
+    </main>
+    <!--Rodapé-->
+    <footer id="rodape">
+        <div id="info-marca">
+            <img src="img/logotipo/logo-branca.svg" alt="Logotipo" id="logo-rodape">
+            <div class="copyright">&copy; 2025 Giovana Mondek</div>
+            <div class="gp-bt-redes">
+                <a href="https://wa.me/5543996794152" target="_blank" class="bt-rede">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/giovanamondek" target="_blank" class="bt-rede">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="mailto:psigiovanamondek@gmail.com" target="_blank" class="bt-rede">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div id="creditos-dev">
+            Desenvolvido por <a href="https://isabelaborgesdev.vercel.app/" target="_blank">Isabela Borges <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
